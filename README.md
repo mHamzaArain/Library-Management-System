@@ -8,11 +8,12 @@
 
 
 ## Project Structure Front-end
+Demo [video](https://youtu.be/mIP4jKKBgYc)
 
 ### Splash Window:
 * Image on it 
 * With progress using QThreads
-![]( 'test images'/splas.PNG )
+![]( test_images/splash.PNG )
 
 ### Login Window:
 * Username
