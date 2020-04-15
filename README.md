@@ -34,10 +34,10 @@
 * email
 
 ## Conversion of .qrc Into .py
-
 ```pyrcc5 icons.qrc -o icons_rc.py```
 
 ## Conversion of <name>.ui into <name>.py
+```pyuic5 -o <name>.py <name>.ui```
 
 ## Project Structure Back-end
 
