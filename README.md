@@ -1,4 +1,4 @@
-# Project Name
+# Library Management System
 
 ## Tools
 * Qt5 Designer
@@ -9,29 +9,56 @@
 
 ## Project Structure Front-end
 
-### Library system:
-* Add new book
-* Edit book
-* Delete book
-* Catagories
-* Search
-* Users -> Login, signup
-* Settings [Catagory, author, publisher]
-* day to day operation
-* Report [Export to xlsx file]
+### Splash Window:
+* Image on it 
+* With progress using QThreads
 
-### Book:
-* Title
-* Description
-* Catagory
-* Price
-* Author
-* Publisher
-
-### Users:
+### Login Window:
 * Username
 * Password
-* email
+
+### Library Window:
+#### Dashboard Objects:
+* Book title
+* Client name
+* Type Retrive/Rent
+* Days [1-12]
+* Report [Export to xlsx file]
+
+#### Book Objects:
+* Show all books
+* Add book
+* Edit/Delete book
+* Report [Export to xlsx file]
+
+#### User Objects:
+* Add new user with username & password
+* Login
+* Edit user detail
+
+#### Client Objects:
+* Show all clients
+* Add new client
+* Edit/Delete client
+* Report [Export to xlsx file]
+
+#### Client Objects:
+* Show all clients
+* Add new client
+* Edit/Delete client
+* Report [Export to xlsx file]
+
+#### Setting Objects:
+* Add catagory
+* Add author
+* Add publisher
+
+#### Theme Objects:
+* Dark Orange
+* Dark Blue
+* Dark Gray
+* QDark
+
 
 ## Conversion of .qrc Into .py
 ```pyrcc5 icons.qrc -o icons_rc.py```
@@ -45,17 +72,5 @@
 
 #### Library system:
 
-##### Day to day
-* Book name
-* Retrive/Rent
-* Days
 
-##### Catagory:
-* Name
-
-##### Publisher:
-* Name
-
-##### author:
-* Name
 
