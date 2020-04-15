@@ -12,7 +12,7 @@
 ### Splash Window:
 * Image on it 
 * With progress using QThreads
-![]( test images/splas.png )
+![]( 'test images'/splas.png )
 
 ### Login Window:
 * Username
