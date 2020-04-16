@@ -13,7 +13,7 @@ Demo [video](https://youtu.be/mIP4jKKBgYc)
 ### Splash Window:
 * Image on it 
 * With progress using QThreads
-![]( test_images/splash.PNG )
+![]( test_images/splash.png )
 
 ### Login Window:
 * Username
