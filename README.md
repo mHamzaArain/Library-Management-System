@@ -1,4 +1,4 @@
-# Library Management System
+# Library Management System using PyQT5
 
 ## Tools
 * Qt5 Designer
